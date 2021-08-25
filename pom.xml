@@ -11,7 +11,7 @@
 	<groupId>com.techlearnings</groupId>
 	<artifactId>techlearnings</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>techlearnings</name>
 	<description>Online Tech Blogs and Learnings</description>
 	<properties>
