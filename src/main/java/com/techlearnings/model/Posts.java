@@ -1,7 +1,10 @@
 package com.techlearnings.model;
 
+import org.springframework.data.annotation.Id;
+
 public class Posts {
 
+    @Id
     private String postId;
     private String postTag;
     private String postPreview;
@@ -55,5 +58,17 @@ public class Posts {
 
     public void setPostedTimeStamp(String postedTimeStamp) {
         this.postedTimeStamp = postedTimeStamp;
+    }
+
+    @Override
+    public String toString() {
+        return "Posts{" +
+                "postId='" + postId + '\'' +
+                ", postTag='" + postTag + '\'' +
+                ", postPreview='" + postPreview + '\'' +
+                ", postTitle='" + postTitle + '\'' +
+                ", postData='" + postData + '\'' +
+                ", postedTimeStamp='" + postedTimeStamp + '\'' +
+                '}';
     }
 }
